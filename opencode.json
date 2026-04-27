@@ -12,6 +12,24 @@
       "*": "ask"
     }
   },
+  "provider": {
+     "lmstudio": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LM Studio (local)",
+      "options": {
+        "baseURL": "http://10.188.225.246:1234/v1/"
+      },
+      "models": {
+        "ibm/granite-4-h-tiny": {
+	  "name": "Granite 4H Tiny",
+          "limit": {
+            "context": 24000,
+            "output": 8000
+          }
+	}
+      }
+    }
+  },
   "mcp": {
     "brave-search": {
       "type": "local",
