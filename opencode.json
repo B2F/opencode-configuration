@@ -9,9 +9,7 @@
     "todowrite": "allow",
     "doom_loop": "deny",
     "bash": {
-      "*": "ask",
-      "npm": "deny",
-      "npm *": "deny"
+      "*": "ask"
     }
   }
 }
