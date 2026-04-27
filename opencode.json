@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "*": "ask",
+    "lsp": "allow",
+    "list": "allow",
+    "glob": "allow",
+    "todoread": "allow",
+    "todowrite": "allow",
+    "doom_loop": "deny",
+    "bash": {
+      "*": "ask",
+      "npm": "deny",
+      "npm *": "deny"
+    }
+  }
+}
