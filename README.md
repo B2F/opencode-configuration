@@ -10,6 +10,8 @@ If you use opencode for AI-assisted development, this repo gives you a reproduci
 
 - 18 custom agent prompt files in `agents/`
 - Permission defaults configured for common tools (`read`, `glob`, `bash`, etc.)
+- Preconfigured Brave Search MCP + subagent
+- Preconfigured LM Studio model sample
 
 ## Project structure
 
