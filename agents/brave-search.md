@@ -3,6 +3,7 @@ description: Web research specialist using Brave Search MCP for current, source-
 mode: subagent
 temperature: 0.3
 permission:
+  brave-search_*: allow
   webfetch: allow
 ---
 

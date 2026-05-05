@@ -7,6 +7,9 @@
     "plan": {
       "color": "#FFF200"
     },
+    "webbrowser": {
+      "color": "#7383eb"
+    },
     "yolo": {
       "color": "#FF0033"
     }
@@ -28,13 +31,13 @@
       "npm": "@ai-sdk/openai-compatible",
       "name": "LM Studio (local)",
       "options": {
-        "baseURL": "http://10.188.225.246:1234/v1/"
+        "baseURL": "http://192.168.100.116:1234/v1"
       },
       "models": {
-        "ibm/granite-4-h-tiny": {
-	  "name": "Granite 4H Tiny",
+        "granite-4.1-3b": {
+	  "name": "Granite 4.1 3B",
           "limit": {
-            "context": 24000,
+            "context": 64000,
             "output": 8000
           }
 	}
@@ -77,6 +80,45 @@
       "type": "local",
       "command": [
         "semanticscholar-mcp"
+      ]
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "playwright-mcp"
+      ]
+    },
+    "browserbase": {
+      "type": "local",
+      "command": [
+        "mcp-server-browserbase"
+      ],
+      "environment": {
+        "BROWSERBASE_API_KEY": "{env:BROWSERBASE_API_KEY}",
+        "BROWSERBASE_PROJECT_ID": "{env:BROWSERBASE_PROJECT_ID}"
+      }
+    },
+    "chrome": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "chrome-devtools-mcp"
+      ]
+    },
+    "youtube": {
+      "type": "local",
+      "command": [
+        "mcp-youtube"
+      ],
+      "environment": {
+        "YOUTUBE_API_KEY": "{env:YOUTUBE_API_KEY}"
+      }
+    },
+    "youtube-transcript": {
+      "type": "local",
+      "command": [
+        "youtube-mcp"
       ]
     }
   }

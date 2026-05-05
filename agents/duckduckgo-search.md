@@ -3,8 +3,7 @@ description: Web research specialist using DuckDuckGo MCP for source-backed answ
 mode: subagent
 temperature: 0.3
 permission:
-  duckduckgo-search_search: allow
-  duckduckgo-search_fetch_content: allow
+  duckduckgo-*: allow
   webfetch: allow
 ---
 
