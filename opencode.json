@@ -1,5 +1,16 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "build": {
+      "color": "#7AFFFD"
+    },
+    "plan": {
+      "color": "#FFF200"
+    },
+    "yolo": {
+      "color": "#FF0033"
+    }
+  },
   "permission": {
     "*": "ask",
     "lsp": "allow",
