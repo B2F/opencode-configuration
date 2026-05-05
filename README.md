@@ -36,6 +36,26 @@ Check if MCP servers are active:
 
 `opencode mcp list`
 
+### MCP dependency install map
+
+This workspace relies on these MCP package dependencies:
+
+- `brave-search` -> `@brave/brave-search-mcp-server` (run via `npx`)
+- `duckduckgo-search` -> `duckduckgo-mcp-server` (Python package/executable on `PATH`)
+- `pubmed` -> `@cyanheads/pubmed-mcp-server`
+- `crossref` -> `@botanicastudios/crossref-mcp`
+- `semantic-scholar` -> `@xbghc/semanticscholar-mcp`
+
+Example install commands:
+
+```bash
+# npm-based MCP servers
+npm install -g @cyanheads/pubmed-mcp-server @botanicastudios/crossref-mcp @xbghc/semanticscholar-mcp
+
+# Brave is executed via npx from opencode.json (no global install required)
+# DuckDuckGo server should expose `duckduckgo-mcp-server` on PATH
+```
+
 ### DuckDuckGo MCP local install notes
 
 The DuckDuckGo server is installed locally in a Python virtual environment and exposed on `PATH` via a symlink:
