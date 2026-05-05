@@ -3,6 +3,7 @@ description: Domain and industry research specialist for strategy and product de
 mode: subagent
 temperature: 0.3
 permission:
+  webfetch: allow
   edit: deny
 ---
 

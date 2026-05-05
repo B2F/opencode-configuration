@@ -52,6 +52,32 @@
       "environment": {
         "BRAVE_API_KEY": "{env:BRAVE_API_KEY}"
       }
+    },
+    "duckduckgo-search": {
+      "type": "local",
+      "command": [
+        "duckduckgo-mcp-server"
+      ]
+    },
+    "pubmed": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "pubmed-mcp-server"
+      ]
+    },
+    "crossref": {
+      "type": "local",
+      "command": [
+        "crossref-mcp"
+      ]
+    },
+    "semantic-scholar": {
+      "type": "local",
+      "command": [
+        "semanticscholar-mcp"
+      ]
     }
   }
 }

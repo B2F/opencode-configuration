@@ -3,6 +3,7 @@ description: Business analyst for requirements discovery, market context, and ac
 mode: subagent
 temperature: 0.2
 permission:
+  webfetch: allow
   edit: deny
 ---
 

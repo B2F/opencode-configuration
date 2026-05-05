@@ -3,6 +3,7 @@ description: Structured brainstorming facilitator for high-divergence idea gener
 mode: subagent
 temperature: 0.8
 permission:
+  webfetch: allow
   edit: deny
 ---
 
