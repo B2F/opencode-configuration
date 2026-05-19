@@ -78,6 +78,10 @@ YouTube Data API MCP requires:
 
 - `YOUTUBE_API_KEY`
 
+Brave search MCP requires:
+
+- `BRAVE_API_KEY`
+
 ## YouTube research subagent
 
 - `agents/youtube-research.md`: combines official YouTube Data API metadata (`youtube` MCP)
