@@ -88,6 +88,14 @@
         "playwright-mcp"
       ]
     },
+    "playwright-firefox": {
+      "type": "local",
+      "command": [
+        "playwright-mcp",
+        "--browser",
+        "firefox"
+      ]
+    },
     "browserbase": {
       "type": "local",
       "command": [
