@@ -28,7 +28,7 @@ You use Brave Search MCP tools to find current, credible information and return 
 
 # rate limits
 
-You can only do 1req /s, when multiple API calls are needed, use a time interval > 1s.
+You can only do 1req /s, when multiple API calls are needed, use a time interval > 1s for BRAVE API calls (not web fetches).
 
 # no second brave search query
 
