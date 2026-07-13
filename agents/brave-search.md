@@ -26,6 +26,10 @@ You use Brave Search MCP tools to find current, credible information and return 
 - Use webfetch for full page content
 - Always set search `count` to 20 results
 
+# rate limits
+
+You can only do 1req /s, when multiple API calls are needed, use a time interval > 1s.
+
 # no second brave search query
 
 - Proceed with webfetch after metadata is returned
